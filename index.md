@@ -1,15 +1,15 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: Danyang Chen
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
+  url: mailto:dychen1999@foxmail.com
+  text: dychen1999@foxmail.com
 homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: http://dychen1999.wordpress.com/
+  text: dychen1999.wordpress.com
 ---
 
-# Wode **Ni**
+## Dan-Yang **Chen**
 
 <!--
 include contact information from the front matter
@@ -23,134 +23,102 @@ Supported arguments:
 
 ## Education
 
-### **Carnegie Mellon University** `2018.9 -`
-
-```
-Pittsburgh, PA
-```
-
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
-
-### **Columbia University** `2016.9 - 2018.5`
-
+### **Shanghai Jiaotong University** `Sep. 2017 - Jun. 2021`
+<!-- 
 ```
 New York, NY
+``` -->
+
+- B.S. Major in Physics, School of Physics and Astronomy
+- B.S. Minor in Computer Science, School of Electronic Information and Electrical Engineering
+- Co-advised by Xian-Min Jin and 
+
+### **University of Oxford** `July 2019`
+<!-- 
 ```
+New York, NY
+``` -->
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+- Two Week Maths and Physics Programme, Hertford College
 
-### **Dickinson College** `2013.9 - 2016.5`
+### **IBM Quantum** (Audit) `July 2020`
 
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+- Qiskit Global Summer School
 
 ## Publications
 
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
+### [**Reconstruction of quantum channel via convex optimization**](https://www.sciencedirect.com/science/article/abs/pii/S2095927319306413)
+Xuan-Lun Huang, Jun Gao, Zhi-Qiang Jiao, Zeng-Quan Yan, Zhe-Yong Zhang, **Dan-Yang Chen**, Xi Zhang, Ling Ji, Xian-Min Jin.
+_Science Bulletin, IF: 6.277_
+
+### [**Shining Light on Quantum Transport in Fractal Networks**](https://arxiv.org/abs/2005.13385)
+Xiao-Yun Xu, Xiao-Wei Wang, **Dan-Yang Chen**, C-Morais Smith, Xian-Min Jin.
+_arXiv_
+
+### **Characterization of Any Linear Optic Devices with Gradient Descent**
+**Dan-Yang Chen**, Jun Gao, Xian-Min Jin.
+_submitting_
+
+<!-- ### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
 Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
 _ACM Transactions on Graphics (SIGGRAPH'20), to appear._<br>
 [[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
 [[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
 [[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
+[[repo](https://github.com/penrose/penrose)] -->
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
+## Research Interests
+Quantum Computation, Quantum Algorithms, Quantum Information, Deep Learning Theory
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+## Research Experiences
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
+### **Characterization on Linear Photonic Chips with Machine Learning** `Sep. 2019 – Present`
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({ page.homepage.url }}/aassets/plateau-19-presentation.pdf)]
+_Advisor: Xian-Min Jin_
+- Simulated Boson sampling experiment with python.
+- Investigated three existing characterization methods that could apply to Boson sampling on photonic chips.
+- Based on TensorFlow, I established an integrated optimizing model with multiple constraints on it.
+- Adapted gradient descent method on my model which reduced the error of Bristol characterization method significantly.
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
+### **Research on the Learning Process of Neural Networks (NN)** `Sep. 2019 – Feb. 2020`
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+_Advisor: Zhi-Qin Xu_
+- Learned to build arbitrary NN models with TensorFlow.
+- With discrete Fourier transformation, revealed the difference in learning processes on Deep Neural Network (DNN) and Convolution Neural Network (CNN).
+- Visualized the convolution kernels in CNN and observed their changing features while learning.
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+### **Research on Quantum Algorithms Based on Quantum Phase Estimation (QPE)** `Aug. 2020 – Present`
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+_Advisor: Xian-Min Jin_
 
----
+- Attended the Qiskit Global Summer School and learned to use qiskit as a tool to implement all kinds of algorithms. Also, I learned many knowledge about the superconducting qubits.
+- Studied related quantum algorithms, their implementation and performance. For example, Quantum Amplitude Estimation (QAE), Quantum Principle Component Analysis (QPCA) and HHL algorithm for solving linear equations.
+- Organize the contents, find relationships between them and come up with new developments. (haven’t finished yet)
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+### **Other Contributions** `Sep. 2018 - Nov. 2019`
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
-
-## Experience
-
-### **Microsoft Research** `2020.5 -`
-
-_Research Intern_<br>
-
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
-
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### **AsiaInfo** `2015.6 - 2015.8`
-
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-## Mentoring
-
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
+- **Algebraic Machine Learning (AML) & N Queens Problem:** Studied AML algorithms, realized them in python scripts with group members and applied it to supervised learning and unsupervised learning. (Sep. 2019 – Mar. 2020, Adviser: Jian-Hui Shang)
+- **Shining Light on Quantum Transport in Fractal Networks:** Compared the simulating and experimental result of quantum walk on fractal waveguide arrays and processing the data to figures on the paper. (Sep. 2019 – Mar. 2020, Advisor: Xian-Min Jin, Collaborator: Xiao-Yun Xu)
+- **Reconstruction of Quantum Channel via Convex Optimizing:** Learned to conduct an optical experiment and analysed the data with Origin. (Sep. 2018 – Nov. 2019, Advisor: Xian-Min Jin, Collaborator: Xuan-Lun Huang)
+- **Recognition of Anderson Localization with Machine Learning:** Simulated quantum walks on waveguide arrays of different shapes (Square, triangle, hexagon…) with MATLAB and analysed the evaluation patterns of result with ML. (Sep. 2018 – Nov. 2019, Advisor: Xian-Min Jin, Collaborator: Xuan-Lun Huang)
 
 ## Honors & Awards
 
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
----
-
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+- Meritorious Winner of 2020 Mathematical Contest In Modeling (MCM) `2020`
+- Sanxing Scholarship for top 3 students among 50	`2019`
+- Second class award of China Undergraduate Mathematical Contest in Modelling (CUMCM) in Shanghai Region `2019`
+- Excellent League member in SJTU `2019`
+- Scholarship from National Astronomical Observatories for 3 students among 50 `2018`
+- Top award of Wangban Scholarship for top 10 students among 50 `2018`
+- Triple-A student in SJTU `2018`
+- Outstanding individual in summer social practice program `2018`
 
 
-## Service
+## Additional Activities
 
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2020`
+- **The president of Astronomer’s Home** (Students’ Association) in 2019. We organized plenty of activities for academic research and promoting popular science, such as Project Sagitta, which called for volunteers to classify the radio galaxies to establish a training dataset for deep learning.
+- **Vice-captain of Suichang volunteer teaching program** in the summer of 2018.
+- **Captain of school's soccer team** in season 2019 - 2020.
 
 <!-- ### Footer
-
-Last updated: May 2013 -->
+Last updated: Aug 2020 -->
